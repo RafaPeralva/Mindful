@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GGA-De-ZLh" customClass="SearchFoodCell" customModule="Mindful" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GGA-De-ZLh" id="0xp-zf-LCi">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N01-lZ-k2o">
+                        <rect key="frame" x="20" y="27" width="348" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="nB7-tQ-kOn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="N01-lZ-k2o" secondAttribute="bottom" constant="27" id="EwA-IB-uni"/>
+                    <constraint firstItem="N01-lZ-k2o" firstAttribute="leading" secondItem="0xp-zf-LCi" secondAttribute="leadingMargin" id="OvS-if-skQ"/>
+                    <constraint firstItem="N01-lZ-k2o" firstAttribute="top" secondItem="0xp-zf-LCi" secondAttribute="topMargin" constant="-28" id="VHo-m4-hBm"/>
+                    <constraint firstItem="N01-lZ-k2o" firstAttribute="top" secondItem="0xp-zf-LCi" secondAttribute="top" constant="27" id="gcq-cW-hsh"/>
+                    <constraint firstItem="N01-lZ-k2o" firstAttribute="centerY" secondItem="0xp-zf-LCi" secondAttribute="centerY" id="hD8-0Q-Ydi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="N01-lZ-k2o" secondAttribute="trailing" constant="-13" id="qgG-GE-bAd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="food_nameLabel" destination="N01-lZ-k2o" id="EY8-W6-dKo"/>
+            </connections>
+            <point key="canvasLocation" x="74.637681159420296" y="-161.38392857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

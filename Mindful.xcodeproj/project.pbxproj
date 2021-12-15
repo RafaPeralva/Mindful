@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9062C232742B40A0027558D /* SearchFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9062C222742B40A0027558D /* SearchFoodCell.xib */; };
+		D9062C252742B7140027558D /* SearchResultClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9062C242742B7140027558D /* SearchResultClass.swift */; };
+		D92A762327585575009D4367 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A762227585575009D4367 /* ListViewController.swift */; };
+		D958CEB62760F0CA00601C30 /* Mindful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D958CEB42760F0CA00601C30 /* Mindful.xcdatamodeld */; };
+		D958CEC92763B61C00601C30 /* FoodEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958CEC72763B61C00601C30 /* FoodEntity+CoreDataClass.swift */; };
+		D958CECA2763B61C00601C30 /* FoodEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958CEC82763B61C00601C30 /* FoodEntity+CoreDataProperties.swift */; };
+		D958CECC2763CB6700601C30 /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958CECB2763CB6700601C30 /* imageCell.swift */; };
+		D958CECE2763CB7200601C30 /* nutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958CECD2763CB7200601C30 /* nutritionCell.swift */; };
+		D958E0BF2745D388000B95A0 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958E0BE2745D388000B95A0 /* FoodDetailViewController.swift */; };
 		D97E46192735A0BF0016690D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E46182735A0BF0016690D /* AppDelegate.swift */; };
 		D97E461B2735A0BF0016690D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E461A2735A0BF0016690D /* SceneDelegate.swift */; };
 		D97E461D2735A0BF0016690D /* MindfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E461C2735A0BF0016690D /* MindfulViewController.swift */; };
 		D97E46202735A0BF0016690D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97E461E2735A0BF0016690D /* Main.storyboard */; };
 		D97E46222735A0C10016690D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97E46212735A0C10016690D /* Assets.xcassets */; };
 		D97E46252735A0C10016690D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97E46232735A0C10016690D /* LaunchScreen.storyboard */; };
+		D97E462D2735AF4E0016690D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E462C2735AF4E0016690D /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9062C222742B40A0027558D /* SearchFoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchFoodCell.xib; sourceTree = "<group>"; };
+		D9062C242742B7140027558D /* SearchResultClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultClass.swift; sourceTree = "<group>"; };
+		D92A762227585575009D4367 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D958CEB52760F0CA00601C30 /* Mindful.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindful.xcdatamodel; sourceTree = "<group>"; };
+		D958CEC72763B61C00601C30 /* FoodEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FoodEntity+CoreDataClass.swift"; path = "../../FoodEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D958CEC82763B61C00601C30 /* FoodEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D958CECB2763CB6700601C30 /* imageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		D958CECD2763CB7200601C30 /* nutritionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionCell.swift; sourceTree = "<group>"; };
+		D958E0BE2745D388000B95A0 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		D97E46152735A0BF0016690D /* Mindful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97E46182735A0BF0016690D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D97E461A2735A0BF0016690D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,7 @@
 		D97E46212735A0C10016690D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97E46242735A0C10016690D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97E46262735A0C10016690D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97E462C2735AF4E0016690D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D958CEB32760EE0400601C30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D958CEC72763B61C00601C30 /* FoodEntity+CoreDataClass.swift */,
+				D958CEC82763B61C00601C30 /* FoodEntity+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D97E460C2735A0BF0016690D = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +85,22 @@
 		D97E46172735A0BF0016690D /* Mindful */ = {
 			isa = PBXGroup;
 			children = (
+				D958CEB32760EE0400601C30 /* Model */,
 				D97E46182735A0BF0016690D /* AppDelegate.swift */,
 				D97E461A2735A0BF0016690D /* SceneDelegate.swift */,
 				D97E461C2735A0BF0016690D /* MindfulViewController.swift */,
+				D97E462C2735AF4E0016690D /* SearchResult.swift */,
 				D97E461E2735A0BF0016690D /* Main.storyboard */,
+				D958E0BE2745D388000B95A0 /* FoodDetailViewController.swift */,
 				D97E46212735A0C10016690D /* Assets.xcassets */,
 				D97E46232735A0C10016690D /* LaunchScreen.storyboard */,
 				D97E46262735A0C10016690D /* Info.plist */,
+				D9062C222742B40A0027558D /* SearchFoodCell.xib */,
+				D9062C242742B7140027558D /* SearchResultClass.swift */,
+				D92A762227585575009D4367 /* ListViewController.swift */,
+				D958CEB42760F0CA00601C30 /* Mindful.xcdatamodeld */,
+				D958CECB2763CB6700601C30 /* imageCell.swift */,
+				D958CECD2763CB7200601C30 /* nutritionCell.swift */,
 			);
 			path = Mindful;
 			sourceTree = "<group>";
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97E46252735A0C10016690D /* LaunchScreen.storyboard in Resources */,
+				D9062C232742B40A0027558D /* SearchFoodCell.xib in Resources */,
 				D97E46222735A0C10016690D /* Assets.xcassets in Resources */,
 				D97E46202735A0BF0016690D /* Main.storyboard in Resources */,
 			);
@@ -138,9 +177,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D958CECE2763CB7200601C30 /* nutritionCell.swift in Sources */,
 				D97E461D2735A0BF0016690D /* MindfulViewController.swift in Sources */,
+				D958E0BF2745D388000B95A0 /* FoodDetailViewController.swift in Sources */,
 				D97E46192735A0BF0016690D /* AppDelegate.swift in Sources */,
+				D97E462D2735AF4E0016690D /* SearchResult.swift in Sources */,
+				D958CECC2763CB6700601C30 /* imageCell.swift in Sources */,
 				D97E461B2735A0BF0016690D /* SceneDelegate.swift in Sources */,
+				D9062C252742B7140027558D /* SearchResultClass.swift in Sources */,
+				D92A762327585575009D4367 /* ListViewController.swift in Sources */,
+				D958CECA2763B61C00601C30 /* FoodEntity+CoreDataProperties.swift in Sources */,
+				D958CEC92763B61C00601C30 /* FoodEntity+CoreDataClass.swift in Sources */,
+				D958CEB62760F0CA00601C30 /* Mindful.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +343,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +355,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D958CEB42760F0CA00601C30 /* Mindful.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D958CEB52760F0CA00601C30 /* Mindful.xcdatamodel */,
+			);
+			currentVersion = D958CEB52760F0CA00601C30 /* Mindful.xcdatamodel */;
+			path = Mindful.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D97E460D2735A0BF0016690D /* Project object */;
 }
